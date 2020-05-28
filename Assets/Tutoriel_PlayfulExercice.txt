@@ -1,0 +1,28 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+###################################
+##### Playful Exercices - JEU #####
+###################################
+
+1) Lancer la scène Connection (OU la Scène StartMenu si un fichier data.json correct se trouve déjà sur dans le dossier Assets)
+2) Se connecter avec la clé de connexion personnelle.
+3) Entrer dans le monde.
+
+Dans le monde :
+	- Déplacements avec les flèches du pavé numérique ou ZQSD.
+	- S'approcher d'un donjon :
+		- Voir les informations relatives à ce donjon.
+		- Cliquer sur le bouton ou sur la touche Entrée pour entrer dans le donjon.
+	- Voir ses stats de progression dans le monde + nombre de pièces actuel.
+	- Accéder à la boutique.
+
+Dans un donjon :
+	- Déplacements avec les flèches gauche et droite du pavé numérique et la touche Espace pour sauter.
+	- S'approcher d'un ennemi active le mode Question.
+	- Dans le mode Question : cliquer sur le bouton Valider ou sur la touche Entrée pour valider sa réponse.
+	- Pour chaque question, le joueur a 3 tentatives, s'il en échoue une il perd un peu de vie.
+	- S'il échoue toutes les tentatives, l'ennemi lui indique la réponse correcte.
+	- Tous les ennemis doivent être battus pour pouvoir sortir du donjon par la porte.
+	- Les questions posées sont toujours aléatoires et peuvent être soit des questiosn ouvertes soit des QCM.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
