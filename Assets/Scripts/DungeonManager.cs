@@ -137,7 +137,7 @@ public class DungeonManager : MonoBehaviour
         }
     }
 
-    private void LoadDungeon(){
+    public void LoadDungeon(){
         if(!currentSubject.Equals("")){
             inRangeDungeon = false;
             infosUI.SetActive(false);

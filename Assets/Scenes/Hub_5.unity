@@ -35593,7 +35593,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 494234919}
         m_MethodName: LoadDungeon
         m_Mode: 1
         m_Arguments:
@@ -53729,7 +53729,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00014496, y: 0.000083923}
+  m_AnchoredPosition: {x: 0.00015258789, y: 0.000076293945}
   m_SizeDelta: {x: 1054.2698, y: 703.96625}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1789614208

@@ -18,16 +18,7 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
     }
-
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            TakeDamage(20);
-            healthBar.SetHealth(currentHealth);
-        }
-    }
-
+    
     public void TakeDamage(int damage)
     {
         if (!isInvincible)
